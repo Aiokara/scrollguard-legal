@@ -1,77 +1,179 @@
 <!DOCTYPE html>
-<html lang="ja"><head><meta charset="utf-8">
+<!-- Generated from privacy-policy.md by scripts/render-privacy-policy.py; local revision only. -->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ScrollGuard — プライバシーポリシー / Privacy Policy</title>
+<title>SwipeMiles — プライバシーポリシー / Privacy Policy</title>
 <style>
-:root{color-scheme:light dark}
-body{max-width:760px;margin:40px auto;padding:0 18px;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans",sans-serif;line-height:1.7;color:#1a1a1a;background:#fff}
-@media(prefers-color-scheme:dark){body{color:#e8e8e8;background:#141414}a{color:#7ab8ff}}
-h1{font-size:1.7em;margin:.6em 0 .3em}h2{font-size:1.25em;margin:1.4em 0 .4em;border-top:1px solid #ddd;padding-top:1em}h3{font-size:1.05em;margin:1.1em 0 .3em}
-hr{border:none;border-top:1px solid #ddd;margin:1.6em 0}
-ul{padding-left:1.3em}li{margin:.2em 0}
-a{color:#0066cc;word-break:break-all}
-.meta{color:#888;font-size:.92em}
-</style></head><body>
+:root { color-scheme: light dark; --background:#fff; --text:#202124; --line:#d8d8de; --link:#5840b5; }
+body { max-width:850px; margin:32px auto; padding:0 20px 48px; color:var(--text); background:var(--background); font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans",sans-serif; font-size:17px; line-height:1.8; overflow-wrap:anywhere; }
+h1 { font-size:1.7em; line-height:1.4; } h2 { font-size:1.4em; border-top:1px solid var(--line); padding-top:1.5em; margin-top:2em; } h3 { font-size:1.1em; margin-top:1.8em; }
+li { margin:.65em 0; } ul { padding-left:1.4em; } a { color:var(--link); text-underline-offset:.15em; } a:focus-visible { outline:2px solid currentColor; outline-offset:4px; }
+nav { display:flex; gap:24px; } section { scroll-margin-top:16px; }
+@media(prefers-color-scheme:dark) { :root { --background:#151515; --text:#eeeeef; --line:#55555d; --link:#c1b7ff; } }
+</style>
+</head>
+<body>
+<nav aria-label="Language"><a href="#ja">日本語</a><a href="#en" lang="en">English</a></nav>
+<main>
 <h1>プライバシーポリシー / Privacy Policy</h1>
-<p><strong>アプリ名 / App:</strong> ScrollGuard</p>
+<p><strong>アプリ名 / App:</strong> SwipeMiles（旧 ScrollGuard / formerly ScrollGuard）</p>
 <p><strong>提供者 / Provider:</strong> Satoshi Okubo</p>
-<p><strong>お問い合わせ / Contact:</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOeC_LIwD3wUAzlV7oZIVZ6U1iWJOQ8Kh5S2G4OHld83UZsg/viewform">お問い合わせフォーム / Contact form</a></p>
-<p><strong>最終更新日 / Last updated:</strong> 2026-06-19</p>
-<hr>
-<h2>日本語</h2>
-<p>ScrollGuard（以下「本アプリ」）は、ユーザーが自分自身のスマートフォン利用（特にスクロール）を把握し、自ら制限するためのアプリです。本ポリシーは、本アプリが扱う情報とその取り扱いを説明します。</p>
-<h3>1. 収集・利用する情報</h3>
-<p><strong>(a) センサー情報（端末内処理）</strong></p>
-<p>本アプリは、スクロール距離の推定と歩行距離の計測のために、加速度センサー（CMSensorRecorder）および歩数・距離（CoreMotion / CMPedometer）を利用します。これらの<strong>生データは端末内でのみ処理</strong>され、外部サーバーへ送信されません。</p>
-<p><strong>(b) スクリーンタイム / アプリ利用情報（端末内処理）</strong></p>
-<p>ブロック機能のために、Apple の Family Controls / DeviceActivity / ManagedSettings を利用します。ユーザーが選んだ対象アプリの利用状況は、<strong>ユーザー自身の端末上で制限を執行する目的にのみ</strong>用いられ、本アプリが端末外へ取得・送信することはありません。</p>
-<p><strong>(c) 利用統計（端末内保存）</strong></p>
-<p>推定スクロール距離・歩行距離・各種統計は、<strong>端末内（SwiftData）にのみ保存</strong>されます。設定画面の「すべてのデータを削除」でいつでも消去できます。</p>
-<p><strong>(d) 購入情報</strong></p>
-<p>サブスクリプションの購入・状態管理のために、Apple（App Store / StoreKit）および <strong>RevenueCat</strong>（課金管理）を利用します。匿名のアプリ内ユーザーIDと購入イベント（購入・更新・解約等）が処理されます。氏名・クレジットカード番号等の決済情報は Apple が扱い、本アプリは受け取りません。</p>
-<p><strong>(e) 利用解析（匿名）</strong></p>
-<p>アプリ改善のために <strong>PostHog</strong>（プロダクト解析）を利用し、画面遷移や機能利用などの<strong>匿名の利用イベント</strong>を記録します。<strong>広告識別子（IDFA）やアプリ横断のトラッキングは行いません</strong>。個人を特定する情報は収集しません。</p>
-<p>本アプリは<strong>アカウント登録・ログインを必要とせず</strong>、氏名・メールアドレス等を取得しません（お問い合わせでメールをいただいた場合を除く）。</p>
-<h3>2. 第三者サービス</h3>
+<p><strong>お問い合わせ / Contact:</strong> <a href="mailto:siokara121234p5@gmail.com">siokara121234p5@gmail.com</a></p>
+<p><strong>改定日・施行日 / Revised and effective:</strong> 2026-11-18</p>
+<section id="ja" lang="ja" aria-labelledby="language-ja">
+<h2 id="language-ja">日本語</h2>
+<p>SwipeMiles（以下「本アプリ」）が扱う情報、その目的、保存・削除、利用者の選択を説明します。オンラインでの共有への参加は任意です。提供状況はアプリで案内し、未提供の機能のために情報を送信しません。提供者の住所は、請求があれば遅滞なくお知らせします。</p>
+<h3>1. 端末内で処理する情報</h3>
 <ul>
-<li><strong>Apple</strong>（App Store / StoreKit / Screen Time API）</li>
-<li><strong>RevenueCat</strong>（サブスクリプション管理）— <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
-<li><strong>PostHog</strong>（匿名のプロダクト解析）— <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
+<li><strong>センサーと歩行：</strong> 加速度等の生センサーデータ、歩数・歩行距離をCore Motion等で処理し、スクロールの推定やブロック解除に使います。生データや歩行の詳細はSwipeMilesサーバーへ送りません。</li>
+<li><strong>Screen Timeと選択対象：</strong> Family Controls、DeviceActivity、ManagedSettingsで、本人が選んだアプリ・カテゴリ・Webサイトに制限をかけます。選択したアプリの名前・トークン、個別の利用明細、DeviceActivityReport拡張の使用時間・表示値を端末外へ送りません。Reportの値は拡張の外へ取り出しません。別の到達イベントから端末内で作る使用時間の下限・推定値、ブロック時間や推定係数も、本人用バックアップを含めサーバーへ送りません。ただし、本人が書き出すファイルには入ります（下の「書き出したファイル」）。</li>
+<li><strong>位置と地図：</strong> 自分で選んだ基準点・座標を端末の地図表示に使い、SwipeMilesサーバーへ保存しません。GPSの現在地や位置履歴を取得する機能はありません。地図表示にはApple MapKitを使うため、地図の領域等はAppleで処理される場合があります。</li>
+<li><strong>詳細な履歴と記録：</strong> 時間ごとの観測、ブロック対象、解除状態、詳細な計測履歴、明日の自分への記録を端末で保持します。任意の日次距離の送信に、生センサーや使用時間・アプリ別明細を混ぜません。</li>
+<li><strong>初回の設定の回答：</strong> 初回の設定で入力する年齢と質問への回答（取り戻したいもの、自分に近いタイプ、1日の使用時間の目安、取り戻したい時間など）は、画面の案内と試算、途中で閉じた時の再開のために端末に保存し、初回の設定が終わると削除します。サーバーや利用解析へは送りません。初回の設定で入力した名前は表示名として端末に残し、第2項の許可がある時だけ、その目的のためにサーバーへ送ります。</li>
+<li><strong>書き出したファイル：</strong> 設定の「データの書き出し・読込み」で「データを書き出す」を押すと、端末の記録を1つのJSONファイルにして、iOSの共有シートに渡します。このファイルには、保存されている場合、日ごとのスクロール距離と品質、日ごとの使用時間の下限・推定値とブロック時間、日ごと・時間ごとの歩数と歩行距離、基準点の名前と座標、距離の固定基準、宝物の獲得・開封、ブロックの達成日・対象外の日、昨日の自分との対戦の結果、以前の版で記録したアプリ別の記録（アプリの識別子・名前・使用時間の累計）が入ります。サーバーへ自動では送らない情報も含まれます。ファイルは本人が選んだ保存先・共有先に渡ります。「データを読み込む」では、選んだファイルの内容を端末の記録に統合します。</li>
 </ul>
-<h3>3. 情報の共有・販売</h3>
-<p>本アプリは、収集した情報を<strong>販売しません</strong>。上記の処理事業者（Apple / RevenueCat / PostHog）に対し、サービス提供に必要な範囲でのみデータが渡ります。</p>
-<h3>4. データの保持と削除</h3>
-<p>端末内データは端末上に保存され、アプリ削除または「すべてのデータを削除」で消去されます。RevenueCat 上の購入記録は同社のポリシーに従って保持されます。</p>
-<h3>5. 子どものプライバシー</h3>
-<p>本アプリは13歳未満の子どもを対象としていません。</p>
-<h3>6. ポリシーの変更</h3>
-<p>本ポリシーは必要に応じて改定されます。重要な変更がある場合は本ページで告知します。</p>
-<h3>7. お問い合わせ</h3>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeOeC_LIwD3wUAzlV7oZIVZ6U1iWJOQ8Kh5S2G4OHld83UZsg/viewform">お問い合わせフォーム / Contact form</a></p>
-<hr>
-<h2>English</h2>
-<p>ScrollGuard (&quot;the App&quot;) helps users understand and self-limit their own smartphone use (especially scrolling). This policy explains what information the App handles and how.</p>
-<h3>1. Information We Process</h3>
-<p><strong>(a) Sensor data (processed on device).</strong> The App uses the accelerometer (CMSensorRecorder) and pedometer/distance (CoreMotion / CMPedometer) to estimate scroll distance and measure walking. This raw data is <strong>processed only on your device</strong> and is not transmitted to any server.</p>
-<p><strong>(b) Screen Time / app usage (processed on device).</strong> For blocking features, the App uses Apple&#x27;s Family Controls / DeviceActivity / ManagedSettings. Usage of the apps you select is used <strong>solely to enforce your own self-imposed limits on your device</strong>, and is not collected or transmitted off the device by the App.</p>
-<p><strong>(c) Usage statistics (stored on device).</strong> Estimated scroll/walk distances and statistics are stored <strong>only on your device</strong> (SwiftData) and can be erased anytime via &quot;Delete all data&quot; in Settings.</p>
-<p><strong>(d) Purchase data.</strong> To manage subscriptions, the App uses Apple (App Store / StoreKit) and <strong>RevenueCat</strong>. An anonymous in-app user ID and purchase events (purchase, renewal, cancellation, etc.) are processed. Payment details (name, card number) are handled by Apple and not received by the App.</p>
-<p><strong>(e) Analytics (anonymous).</strong> To improve the App, we use <strong>PostHog</strong> to record <strong>anonymous usage events</strong> (screen views, feature usage). We do <strong>not</strong> use advertising identifiers (IDFA) or cross-app tracking, and we do not collect personally identifying information.</p>
-<p>The App requires <strong>no account or sign-in</strong> and does not collect your name or email (except if you contact us by email).</p>
-<h3>2. Third-Party Services</h3>
+<h3>2. 任意のオンラインと目的別の許可</h3>
+<p>端末内の計測・制限に、Apple連携やオンラインでの共有は必須ではありません。共有に参加しない場合も、本アプリはサーバーに匿名の端末資格（ランダムなIDと認証用の値）を登録し、Proの保存・同期の提供状況、許可の状態、プロフィールを確かめる通信を行います。この通信では、距離・名前・写真などの共有用のデータは送りません。オンラインではサービスのアカウントID、端末資格、言語・タイムゾーン等を扱います。</p>
+<p>アカウントの作成は、設定・オンライン・友達招待のどの入口でも同じ画面で、「Appleで続ける」、名前（必須）、共有の説明、「続ける」の順に進みます。共有の説明では、友達・世界集計・名前付きランキングの3つを示します。「続ける」を押すと、13歳以上であることと3つの共有に同意したことになり、3つの許可を1つずつサーバーへ送ります。途中で失敗した場合は、送れた許可を残したままエラーを表示し、「もう一度」で残りを送ります。</p>
+<p>初回の設定では、「ランキングに参加しますか？」で「参加する」か「今はしない」を選び、「この内容で進む」を押します。「参加する」を選ぶと、13歳以上であることと同じ3つの共有に同意したことになります。Apple連携がまだの場合は、先に連携を求めます。途中で失敗した場合と「今はしない」を選んだ場合は、この初回の設定で許可した分を取り消します。初回の設定より前からある許可は変えません。</p>
+<p>本人専用バックアップ（Pro）は、これらの流れに含めません。設定の「アカウントと公開範囲」の「非公開バックアップ」で、Proの人だけがオンにできます。計測の開始やApple連携だけを、共有やバックアップへの同意にはしません。許可は設定の「アカウントと公開範囲」で目的ごとに変えられます。</p>
 <ul>
-<li><strong>Apple</strong> (App Store / StoreKit / Screen Time API)</li>
-<li><strong>RevenueCat</strong> (subscription management) — <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></li>
-<li><strong>PostHog</strong> (anonymous product analytics) — <a href="https://posthog.com/privacy">https://posthog.com/privacy</a></li>
+<li><strong>本人専用バックアップ（private_backup）：</strong> Proで、本人の認証済み端末での保存・復元のため、日付・タイムゾーン、日次のスクロール距離と品質・欠測・確定状態、距離の固定基準（基準にした日ごとの距離を含む）、昨日の自分との対戦の結果、ブロックの達成日・対象外の日、利用した日の記録、宝物の獲得・開封とホームに飾る宝物、一部の通知・ブロックの設定、本人用の表示名・写真を保存します。使用時間の下限・推定、ブロック時間、使用時間に関わる係数・投影値、アプリの名前・トークン、OS権限、位置、明日の自分への記録、友達との個別の対戦の記録は含めません。新しい保存・同期は、サーバーがRevenueCatでProの権利を確かめてから受け付けます（第3項）。Proを確認できない間は新しい保存・同期を止め、「非公開バックアップ」の画面に理由を表示します。このとき、許可や保存済みのデータは自動では消しません。保存済みのデータの復元は無料で、バックアップの許可がオフでも本人の操作で復元できます。</li>
+<li><strong>友達（friends）：</strong> 相互に承認し、双方の許可が有効な友達に、表示名・任意の写真、日次のスクロール距離・品質・比較結果、ブロック開始・終了を共有します。友達関係、招待、既読・通知の識別情報も扱います。使用時間・下限・推定値、使用アプリ、タイムゾーンは友達へ返しません。友達どうしでメッセージを送る機能はありません。許可の画面と説明では、13歳以上が対象であることを示します。既存の有効な許可の更新では元の共有開始日時と範囲を保ち、撤回後の再許可では新しい開始日時を使います。</li>
+<li><strong>名前を出さない世界集計（world_aggregate）：</strong> 世界合計、自分の順位、宝物の所有率の計算に、日次距離・品質・日付、獲得した宝物のIDを使います。条件を満たす日には、距離の固定基準の日平均も送り、世界で減らした距離の集計に使います。基準にした日ごとの記録や位置は送りません。収集時はアカウントと結び付けます。この許可だけでは名前や写真をランキングに出しません。所有率は必要な参加人数を満たす場合に集計として表示し、個別の所有者一覧を出しません。日ごとの人数・距離などは、アカウントIDのない集計としても残します（第7項）。</li>
+<li><strong>名前付きランキング（named_ranking）：</strong> 表示名・任意の写真・距離・順位を、オンラインランキングを閲覧できる利用者に表示します。この選択には世界集計への参加も含むことを確認します。使用時間・アプリ別情報は出しません。</li>
 </ul>
-<h3>3. Sharing / Sale</h3>
-<p>We do <strong>not</strong> sell your information. Data is shared only with the processors above as needed to provide the service.</p>
-<h3>4. Retention &amp; Deletion</h3>
-<p>On-device data stays on your device and is removed when you delete the App or use &quot;Delete all data.&quot; Purchase records on RevenueCat are retained per their policy.</p>
-<h3>5. Children</h3>
-<p>The App is not directed to children under 13.</p>
-<h3>6. Changes</h3>
-<p>We may update this policy. Material changes will be posted on this page.</p>
-<h3>7. Contact</h3>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeOeC_LIwD3wUAzlV7oZIVZ6U1iWJOQ8Kh5S2G4OHld83UZsg/viewform">お問い合わせフォーム / Contact form</a></p>
-</body></html>
+<p>許可の版・状態・時刻・端末ID・言語を記録します。設定で撤回すると、その目的の新しい送信・共有・通知を止め、古い許可の未送信分を再送しません。撤回をサーバーへ送れない時は、端末で先に止め、次に接続した時に送ります。友達・世界向けの記録は現在の許可以前へさかのぼって送りません。<strong>撤回は保存済みデータの一括削除ではありません。</strong> 距離や用途別プロフィール等は、停止した目的の履歴として保存が続く場合があります。保存期間と削除操作は第7項のとおりです。友達の端末に既に取得された距離・名前・写真等のキャッシュは、撤回によって遠隔消去できません。</p>
+<h3>紹介特典</h3>
+<p>自分の紹介コードは、「友達に共有」の画面で初めて「招待を共有」を押した時に作ります。画面を開いて状態を確かめるだけでは作りません。自動の同期で紹介の状態を取得するのは、コードを作った人・コードや友達招待を使った人・特典がある人だけです。1アカウントにつきRevenueCatの利用者IDを2つまで有効にし、端末の入れ替え・アカウント統合では古いIDへの特典を取り消す処理を行います。</p>
+<p>紹介を使う人と特典を受け取る人について、紹介コード、使ったコード・友達招待と紹介元・先のアカウントID、使った日時、Appleで初めてアカウントを作った日時、計上の状態と保留の理由、紹介人数、日ごとの件数、RevenueCatの利用者ID（変更履歴を含む）、達成段階・特典の絶対期限・付与日時・付与先ID・処理結果と再試行の記録を扱います。以前の版で記録した「最初の計測が済んだ」印（計測値は含まない）が残る場合がありますが、計上には使いません。これらは、Appleでの新しい登録か・1人1回かの確認、特典の提供と乱用防止に使います。RevenueCatには、Proの権利の付与・取り消し・顧客の実在の確認のために利用者IDを送り、付与時には期限も送ります。紹介相手の名前・写真・個別の計測値を紹介者へ見せず、人数だけを表示します。紹介の計上には友達の許可や13歳以上の確認を求めません。友達の年齢条件と許可は別に適用します。RevenueCatの利用者IDをSwipeMilesサーバーへ送るのは、コードや友達招待を使った人（既存のアカウントのため対象外の人を除く）、期限内の特典がある人、Proで本人専用バックアップを許可している人です（第3項）。</p>
+<p>重複計上を防ぐため、AppleのDeviceCheckで端末ごとに「紹介された側として計上済み」の印（bit0）を記録します。紹介を使ってAppleで新しく登録する時と、計上の確認を再試行する時に生成したAppleのトークンを一時的に検証し、トークンを保存しません。運営は端末を特定する識別情報を受け取りません。Appleの印は再インストールやアカウント削除後も残り、サーバーには削除後の照合用ハッシュを保存しません。DeviceCheckを検証できない場合は計上せず保留します。</p>
+<p>紹介のコード・利用記録・利用者IDと付与履歴は、アカウントの利用中（無期限特典の提供中を含む）、特典提供・重複防止・再試行に必要な期間保持し、アカウント削除で当人と結び付く記録を削除します。削除後も、相手側の個人を特定しない累計人数と獲得済みの特典は減らしません。バックアップから削除記録を再適用する台帳は35日保持します。アカウント統合では記録と残りの特典を統合先に移し、期間を延長しません。</p>
+<h3>3. Apple連携、購入、通知</h3>
+<p><strong>Apple連携：</strong> 任意のSign in with Appleで同じ本人への連携・復元を行います。本人確認トークンと認可コードを検証し、Apple識別子由来のハッシュ、暗号化した更新トークン等を扱います。Appleのパスワードとメールアドレスは要求しません。Appleから氏名を受け取る場合があり、名前の入力欄の候補として端末で使います。受け取った氏名をそのままサーバーへ送ることはありません。候補を表示名として保存した場合は、本人が入力した表示名と同じに扱います。サポートへのメールは別です。</p>
+<p><strong>購入：</strong> Apple App Store／StoreKitとRevenueCatが、匿名のアプリ内ID、商品・購入・更新・復元・有効な権利の情報を課金管理に使います。本アプリはカード番号等を受け取りません。Proの保存・同期と紹介の特典のため、SwipeMilesサーバーはRevenueCatの利用者IDをアカウントに結び付けて保存し、RevenueCatにProの権利を問い合わせ、その判定・期限・確認した時刻を保存します。</p>
+<p><strong>通知：</strong> 許可した機能についてCloudflareでAPNsトークン等の配信先を管理し、Apple Push Notification serviceで届けます。本人専用バックアップの同期や友達の距離の更新のため、画面に表示しない通知を送る場合があります。明日の自分への記録は、本文を含むローカル通知として端末内で予約し、サーバーへ送りません。無料体験・初回価格の期間が終わる前のお知らせも、端末内で予約するローカル通知です。通知はOSとアプリの設定で変更できます。</p>
+<h3>4. 通報と遮断</h3>
+<p>通報は人単位です。通報者・対象者のID、固定の理由・文脈と日時を扱い、90日で期限切れになります。遮断すると友達関係を終了し、双方への共有を停止します。遮断の記録（遮断した人・された人のIDと日時）は、遮断を解除するか、どちらかのアカウントを削除するまで保存します。遮断解除だけでは友達関係は戻りません。すでに相手の端末に保存された記録は遠隔削除できません。</p>
+<h3>5. 利用解析</h3>
+<p><strong>解析のON/OFFはこの端末だけの設定で、初期値はONです。</strong> 4つのオンライン許可とは別で、同期しません。「端末だけ」は設定の保存先を指し、解析イベントはPostHogへ送ります。</p>
+<p>PostHogで、起動・画面や機能の操作、購入の成否、障害発生等の決まった種類のイベント、モーションと通知の許可を求めた結果（許可したかどうか）と、アプリ・OSの版、端末モデル、言語・タイムゾーン、セッション等の技術情報を処理します。SDKの匿名識別子を使い、サービスのアカウントIDとの結合を指示しませんが、完全な匿名性を保証するものではありません。使用量、選択アプリ・選択数・制限トークン、<strong>Screen Timeの許可状態</strong>、初回の設定の年齢・回答、メッセージ本文、位置、クラッシュスタックや生の診断内容は送りません。使っていないfeature flagsの先読みも無効にしています。</p>
+<p>他社の広告を目的とするトラッキングやIDFAの収集は行いません。PostHogはIPを保存せず、IPからのおおよその位置を保持しない設定で運用します。OFFにするとPostHogの取得・送信・保存済みの送信待ちを止めます。既に送信済みの情報の削除は連絡先へ請求できます。</p>
+<h3>6. 処理先、通信情報、国外での取扱い</h3>
+<ul>
+<li><strong>Cloudflare（Workers／D1）：</strong> オンラインAPI、許可、本人用保存、友達・順位、匿名の世界の日次集計、紹介とProの確認、通知準備、通報・遮断・削除台帳。Workers Logs等はIPアドレス、端末・リクエストの技術情報、アクセスログを受け取る場合があります。</li>
+<li><strong>Apple：</strong> OSの計測・制限、Apple連携、App Store購入、プッシュ、DeviceCheck、MapKit地図。</li>
+<li><strong>RevenueCat：</strong> 購入・復元と課金の権利確認（SwipeMilesサーバーからの確認を含む）、紹介の特典の付与・取り消し。通信のIPアドレス、端末・SDK・購入の技術情報やアクセスログも処理されます。</li>
+<li><strong>PostHog：</strong> 前項の製品解析。送信時のIPアドレス、端末・SDK等の通信情報を受け取ります。IPと位置は前項の設定で保存対象から外します。</li>
+<li><strong>メールサービス：</strong> 本人が送るお問い合わせの返信先・本文等が提供者に届き、カスタマーサポートと請求対応に使います。</li>
+</ul>
+<p>提供者は保守・安全対策・サポート・削除対応に必要な範囲で取り扱います。委託する第三者にも、本ポリシーと同等の個人情報保護を提供することを求めます。<strong>利用者の情報を販売しません。</strong></p>
+<p>処理先で米国を含む外国で取り扱われる場合があります。PostHogの送信先は米国です。国外では個人情報保護制度が日本と異なる場合があるため、委託先の保護措置・契約・アクセス管理を確認し、適切な保護を求めます。処理先が保持するログ等の期間はサービスと設定によって異なります。お問い合わせで確認・削除を受け付けます。</p>
+<h3>7. 保存期間と削除の範囲</h3>
+<ul>
+<li><strong>端末の生センサーファイル：</strong> 起動時等に3日を超えたものを整理します。</li>
+<li><strong>端末の詳細な計測記録：</strong> 日次集計を保存できた後、14日を超えた記録を整理します。日次集計・実績・明日の自分への記録は別に保持します。</li>
+<li><strong>本人専用バックアップ、世界集計向けの距離・宝物等：</strong> 選択した目的の保存・復元・比較に使い、下の削除操作まで保持します。</li>
+<li><strong>友達向けの距離・対戦結果：</strong> 友達へ届けるための控えです。必要な相手の端末が受け取ったことを確認した後に削除し、受け取られない場合も、対象の日の終わり（双方のタイムゾーンの遅い方）から7日で削除します。期限の後は、新しい端末で友達との個別の対戦の記録を復元できない場合があります。</li>
+<li><strong>友達向けのブロック開始・終了：</strong> 対象の友達がすべて受け取った時、または発生から7日で削除します。サーバーに届いたブロック開始・終了の元の記録（アプリ・OSの版、タイムゾーン等の技術情報を含む）も、最長7日で削除します。</li>
+<li><strong>その他の計測試験のイベント：</strong> 発生または受信から30日を期限として定期削除します。</li>
+<li><strong>匿名の世界の日次集計：</strong> 日ごとの参加人数、距離の合計・平均・分布、減らした距離などを、アカウントIDや個人ごとの値を含まない集計として保存します。対象の日の約3日後に確定し、確定後は変更・削除しません。期間を定めずに保持し、許可の撤回やアカウント削除の後も残ります。</li>
+<li><strong>通報：</strong> 人単位の通報の情報は90日で期限切れとなります。</li>
+<li><strong>遮断：</strong> 遮断を解除するか、どちらかのアカウントを削除するまで保持します。</li>
+<li><strong>削除台帳：</strong> 復旧による再出現を防ぐアカウント等のID、削除・撤回の種類・時刻を、独立した台帳に35日保持します。本文は含めません。</li>
+<li><strong>運用SQLバックアップ：</strong> 通知待ちを除外し、作成時から最長30日。毎時の整理で期限切れを削除し、復旧時は台帳を再適用します。</li>
+</ul>
+<p><strong>端末の記録の削除：</strong> 設定の「データの書き出し・読込み」にある「計測記録とスケジュールを削除」で、端末の計測記録（日ごとの集計、歩行、詳細な計測）、生センサー記録、スケジュール、宝物の獲得・開封の記録、距離の固定基準、明日の自分への記録とその予約済み・表示済みの通知を削除します。プロフィール（名前・写真）、基準点、スケジュール以外のブロックの設定と対象、ブロックの達成日、昨日の自分との対戦の結果、友達の記録の控え、オンラインの記録は残ります。ストイックモード中は削除できず、画面で案内します。端末内のデータをすべて消すには、アプリを削除してください。ただし、サーバーとの接続に使う資格情報はiOSのキーチェーンに保存しており、iOSの仕様によりアプリを削除しても残る場合があります。端末の記録の削除やアプリの削除では、サーバーのデータは消えません。サーバーのデータを消すには、次のバックアップ削除またはアカウント削除を使ってください。</p>
+<p><strong>本人用バックアップ削除：</strong> 「非公開バックアップ」の「保存済みバックアップを削除」で、同期を止め、本人用の日次スナップショット、宝物・固定基準・ホームに飾る宝物・設定、昨日の自分との対戦の結果、ブロック達成／対象外の日、利用した日の記録、本人用の名前・写真をサーバーから消します。端末の記録は残ります。友達・世界向けにも保存した距離、用途別の名前・写真、友達関係・共有対戦・通報等は一括削除しません。共有にも使う写真のコピーは、その共有の目的で残る場合があります。</p>
+<p><strong>アカウント削除：</strong> 設定の「アカウントと公開範囲」の「オンラインアカウントを削除」で、利用資格を無効にし、本人用および用途別プロフィール、写真、友達関係、日次・対戦・実績・バックアップ、紹介の記録、RevenueCatの利用者IDとProの判定、通報（した・された）、遮断の記録等の関連記録を削除します。Appleとの連携の取り消しをAppleへ求め、できなかった場合はiOSの設定で連携をやめる方法を案内します。削除済みと識別して再作成を防ぐ墓標は残します。友達・世界向けに保存した記録まで消したい場合はこちらを使います。匿名の世界の日次集計、相手の端末のキャッシュ、他の処理先が独自に持つ購入・解析記録までは消去しません。</p>
+<h3>8. 開示等の請求と安全管理</h3>
+<p>保有個人情報の利用目的の通知、開示・訂正・追加・削除、利用停止・消去、第三者提供の停止について、上記メールで受け付けます。対象のアカウントや請求内容をお知らせください。パスワードや認証トークンをメールに書かないでください。必要な範囲で本人確認を行い、適用される法令に従って対応し、対応できない場合は理由をお知らせします。アプリを使えなくなった場合もメールで請求できます。</p>
+<p>通信の暗号化、端末資格・目的別認可、最小限の閲覧権限、端末保存の保護、削除期限と復旧時の台帳再適用、保守時のアクセス管理等で漏えい・不正利用の防止に努めます。安全管理措置の詳細も、対策に支障のない範囲でメールで回答します。</p>
+<h3>9. 未成年</h3>
+<p>友達・世界集計・名前付きランキングのオンラインの共有は13歳以上が対象です。紹介の計上は上記のとおり別に扱います。初回の設定では13〜60歳の年齢を入力し、13歳未満の場合は初回の設定を先へ進めません。年齢の入力は名前の入力とApple連携（任意）の後のため、13歳未満で止めた場合も、それまでに入力した名前が端末に、それまでの操作で作られた端末資格やApple連携の記録がサーバーに残る場合があります。その削除はメールで請求できます。共有を許可する画面と説明では、13歳以上が対象であることを示します。生年月日は保存しません。入力した年齢は初回の設定が終わると端末から削除し、サーバーへ送りません。適用される法令で必要な保護者の同意を得てください。年齢や不適切な利用の懸念は連絡先へお知らせください。</p>
+<h3>10. 改定と連絡先</h3>
+<p>機能や収集・共有が増える場合は、開始前にアプリで知らせ、必要な新しい許可を取ります。Webページの改定や過去の許可だけで用途を広げません。</p>
+<p>提供者：Satoshi Okubo。住所は、請求があれば遅滞なくお知らせします。</p>
+<p>メール：<a href="mailto:siokara121234p5@gmail.com">siokara121234p5@gmail.com</a></p>
+</section>
+<section id="en" lang="en" aria-labelledby="language-en">
+<h2 id="language-en">English</h2>
+<p>This policy explains the information handled by SwipeMiles (the “App”), its purposes, retention, deletion and your choices. Joining online sharing is optional. Availability is explained in the App; information is not sent for unavailable features. The provider’s address will be disclosed without delay upon request.</p>
+<h3>1. Information processed on your device</h3>
+<ul>
+<li><strong>Sensors and walking:</strong> Core Motion and related OS features process raw motion, steps and walking distance to estimate scrolling and unlock blocks. Raw sensors and detailed walking records are not sent to SwipeMiles servers.</li>
+<li><strong>Screen Time and selections:</strong> Family Controls, DeviceActivity and ManagedSettings enforce limits on your selected apps, categories and websites. App names/tokens, individual usage records and DeviceActivityReport display values stay on-device. Report values are not extracted from the extension. Usage-time lower bounds/estimates derived separately from threshold events, blocked time and associated estimation parameters are also excluded from every server upload, including private backup. They are, however, included in a file you export yourself (see “Exported files” below).</li>
+<li><strong>Location and maps:</strong> An origin/coordinates you choose are used for local map presentation, without SwipeMiles server storage. The App has no GPS current-location or location-history collection feature. Apple MapKit may process map regions to display maps.</li>
+<li><strong>Detailed history:</strong> Hourly observations, blocking targets, unlock state, detailed measurements and notes to tomorrow’s you stay on-device. Optional daily-distance uploads exclude raw sensors, usage time and per-app details.</li>
+<li><strong>First-run answers:</strong> The age and question answers you enter during first-run setup (what you want to get back, the type closest to you, your approximate daily usage, the time you want to get back, and similar answers) are stored on the device for on-screen guidance, estimates and resuming an interrupted setup, and are deleted when first-run setup is completed. They are not sent to servers or analytics. The name you enter during first-run setup stays on the device as your display name and is sent to the server only for the purposes of a permission in Section 2, while that permission is active.</li>
+<li><strong>Exported files:</strong> When you tap “Export data” in Settings &gt; “Export and import data”, the App writes your device records to one JSON file and passes it to the iOS share sheet. Where stored, this file includes daily scroll distance and quality, daily usage-time lower bounds/estimates and blocked time, daily and hourly steps and walking distance, the origin name and coordinates, the fixed distance baseline, earned/opened treasures, block completion and excluded days, results against yesterday’s you, and per-app records from earlier versions (app identifiers, names and cumulative usage time). It includes information that is never uploaded automatically. The file goes to the destination or recipient you choose. “Import data” merges the contents of a file you choose into your device records.</li>
+</ul>
+<h3>2. Optional online features and purpose permissions</h3>
+<p>Apple linking and online sharing are not required for local measurement/blocking. Even if you do not join sharing, the App registers anonymous device credentials (a random ID and an authentication value) with the server and connects to check whether Pro saving/sync is available, your permission state and your profile. These connections do not send sharing data such as distance, name or photo. Online services handle an account ID, device credentials, language, time zone and service information.</p>
+<p>Every entry point (Settings, Online and friend invitations) uses the same account sheet: “Continue with Apple”, then a name (required), then an explanation of sharing, then “Continue”. The explanation covers Friends, World aggregate and Named ranking. Pressing “Continue” confirms that you are 13 or older and agree to all three, and the three permissions are sent to the server one at a time. If the sequence is interrupted, permissions already sent remain, an error is shown, and “Try again” sends the rest.</p>
+<p>During first-run setup, you choose “Join” or “Not now” on “Join the Leaderboard?” and press “Continue with this choice”. Choosing “Join” confirms that you are 13 or older and agree to the same three kinds of sharing. If Apple is not linked yet, the App asks you to link first. If the sequence fails, or you choose “Not now”, the App withdraws the permissions granted during this first-run setup. Permissions that existed before first-run setup are unchanged.</p>
+<p>Private backup (Pro) is not part of these flows. Only Pro users can turn it on, in Settings &gt; “Account and visibility” &gt; “Private backup”. Starting measurement or linking Apple alone does not grant sharing or backup permission. You can change each permission in Settings &gt; “Account and visibility”.</p>
+<ul>
+<li><strong>Private backup (private_backup):</strong> With Pro, your authenticated devices can store/restore dates/time zones, daily scroll distance and quality/missing/finalized status, the fixed distance baseline (including the per-day distances it was based on), results against yesterday’s you, block completion and excluded days, visit-day records, earned/opened treasures and the treasure displayed on Home, some notification/blocking settings and your private name/photo. It excludes usage-time lower bounds/estimates, blocked time, associated calibration/projection values, selected app names/tokens, OS permissions, location, notes to tomorrow’s you and individual battle records with friends. The server accepts new saves and sync only after confirming Pro entitlement with RevenueCat (Section 3). While Pro cannot be confirmed, new saving and sync stop and the reason is shown on the “Private backup” screen. Your permission and saved data are not deleted automatically. Restoring saved data is free and can be done on your request even when backup permission is off.</li>
+<li><strong>Friends (friends):</strong> Mutually accepted friends with active permissions share names, optional photos, daily scroll distance, quality and comparison results, and block start/end events. We process relationship, invitation, read-state and notification identifiers. Friends do not receive usage time, lower bounds or estimates, used apps, or time zones. There is no feature for sending messages between friends. Permission screens and explanations state that this feature is for ages 13 and above. Updating an existing active grant preserves its sharing start and scope; granting again after withdrawal starts a new sharing period.</li>
+<li><strong>World aggregation without a public name (world_aggregate):</strong> Daily distance/quality/date and earned treasure IDs support world totals, your rank and treasure ownership rates. On days that meet the conditions, the daily mean of your fixed distance baseline is also sent and used to total the distance reduced worldwide. The per-day baseline records and location are not sent. Collection is account-linked, but this permission alone does not publish names/photos. Ownership rates require a minimum population and do not identify individual owners. Daily counts and distances are also kept as aggregates without account IDs (Section 7).</li>
+<li><strong>Named ranking (named_ranking):</strong> Your name, optional photo, distance and rank are visible to users who can view online leaderboards. You confirm this also grants world-aggregate participation. Usage time and per-app data are excluded.</li>
+</ul>
+<p>We record permission version, state, time, device ID and language. Withdrawal in Settings stops new transmission, sharing and notifications for that purpose and discards pending uploads under old permission. If the withdrawal cannot reach the server, it takes effect on the device first and is sent at the next connection. Friend/world data is not uploaded retrospectively from before the current grant. <strong>Withdrawal is not bulk deletion of stored records:</strong> distance and scoped profiles may remain as records of the stopped purpose. Section 7 explains retention and deletion operations. Withdrawal cannot remotely erase distance/name/photo caches already stored on friends’ devices.</p>
+<h3>Referral rewards</h3>
+<p>Your own referral code is first created when you first press “Share invitation” on the “Share with friends” screen; opening the screen to check status does not create it. Automatic referral status synchronization is limited to people who created a code, used a code or friend invitation, or have rewards. Up to two RevenueCat app user IDs are active per account. Device replacements and account merges request revocation of rewards from old IDs.</p>
+<p>For people using a referral or receiving a reward, we process referral codes, the redeemed code or friend invitation and referring/referred account IDs, redemption time, the time an Apple account was first created, counting status and pending reasons, referral totals and daily counts, RevenueCat app user IDs including previous IDs, and reward milestones, absolute expiry, grant time, destination ID, outcomes and retry records. A “first measurement completed” mark recorded by earlier versions (without measurement values) may remain, but it is not used for counting. These support checking for a new Apple registration and one-time counting, reward delivery and abuse prevention. We send RevenueCat app user IDs to grant or revoke Pro access and verify customer existence, and expiry when granting access. Referrers see counts, not referred users’ names, photos or individual measurements. Referral counting does not require Friends permission or age-13 confirmation; Friends retains its separate eligibility and permission requirements. A RevenueCat app user ID is sent to the SwipeMiles server by people who used a code or friend invitation (except those ineligible because of an existing account), people with an unexpired reward, and Pro users who have allowed private backup (Section 3).</p>
+<p>To prevent duplicate counting, Apple DeviceCheck records a per-device “already counted as a referred device” mark (bit0). We temporarily verify Apple tokens generated when registering with Apple after using a referral and when retrying the counting check, without storing the tokens. The operator does not receive identifying device information. Apple’s mark remains after reinstall or account deletion. Our server keeps no post-deletion matching hash. Referrals stay pending if DeviceCheck cannot be verified.</p>
+<p>Codes, redemptions, app user IDs and grant history are kept while the account is in use, including lifetime access, as needed for delivery, deduplication and retries. Account deletion removes records linked to that person. The other account’s non-identifying aggregate total and earned rewards are retained. The erasure replay ledger is kept for 35 days. Account merges transfer records and remaining benefits without extending expiry.</p>
+<h3>3. Apple linking, purchases and notifications</h3>
+<p><strong>Apple linking:</strong> Optional Sign in with Apple supports linking/restoration. We validate identity tokens and authorization codes and handle a hash derived from Apple’s identifier and an encrypted refresh token. We do not request your Apple password or email address. Apple may provide your name, which the App uses on the device as a suggestion for the name field. The name received from Apple is not sent to the server as is. If you save the suggestion as your display name, it is handled like any display name you enter. Support email is separate.</p>
+<p><strong>Purchases:</strong> Apple App Store/StoreKit and RevenueCat process an anonymous in-app ID, products, purchases, renewals, restoration and entitlements. The App does not receive payment-card numbers. For Pro saving/sync and referral rewards, the SwipeMiles server stores RevenueCat app user IDs linked to your account, asks RevenueCat about your Pro entitlement, and stores the result (whether you have Pro), its expiry and the time it was checked.</p>
+<p><strong>Notifications:</strong> Cloudflare manages APNs delivery tokens/identifiers for permitted features; Apple Push Notification service delivers notifications. Notifications that are not displayed may be sent to sync private backup or to refresh friends’ distances. Notes to tomorrow’s you are scheduled locally with their text, without server transmission. Reminders before a free trial or introductory price ends are also local notifications scheduled on the device. OS and App settings control notifications.</p>
+<h3>4. Reports and blocking</h3>
+<p>Reports concern a person. Reporter and target IDs, a fixed reason and context, and timestamps expire after 90 days. Blocking ends friendship and stops sharing in both directions. The block record (the IDs of the person who blocked and the blocked person, and the time) is kept until the block is removed or either account is deleted. Unblocking does not restore friendship. Records already saved by another person cannot be remotely erased.</p>
+<h3>5. Analytics</h3>
+<p><strong>Analytics is a device-specific ON/OFF setting, defaulting to ON.</strong> It is separate from the four permissions and is not synchronized. “Device-specific” describes the setting; analytics events are sent to PostHog.</p>
+<p>PostHog processes fixed event types for launches, screen/feature interactions, purchase outcomes and diagnostic occurrences, the results of motion and notification permission requests (whether you allowed them), plus app/OS versions, device model, language/time zone, sessions and technical context. SDK anonymous identifiers are used without instructing linkage to the service account ID; this is not a guarantee of complete anonymity. Usage amounts, app identities/selection counts/tokens, <strong>Screen Time permission state</strong>, first-run age and answers, messages, location, crash stacks and raw diagnostics are excluded. Unused feature-flag preloading is disabled.</p>
+<p>We do not perform tracking for another company’s advertising or collect IDFA. PostHog is operated with settings that discard IP addresses and do not retain IP-derived approximate location. Turning analytics OFF stops collection/transmission and the stored pending SDK queue. You can request deletion of previously sent information by email.</p>
+<h3>6. Processors, connection information and international handling</h3>
+<ul>
+<li><strong>Cloudflare (Workers/D1):</strong> Online APIs, permissions, private storage, friends/rankings, anonymous world daily aggregates, referrals and Pro checks, notification preparation, reports/blocks and erasure records. Workers Logs and related infrastructure may receive IP addresses, device/request technical information and access logs.</li>
+<li><strong>Apple:</strong> OS measurement/restrictions, optional Apple linking, App Store purchases, push notifications, DeviceCheck and MapKit.</li>
+<li><strong>RevenueCat:</strong> Purchase/restoration and entitlements (including checks by the SwipeMiles server), and granting/revoking referral rewards, with connection IP addresses, device/SDK/purchase technical information and access logs.</li>
+<li><strong>PostHog:</strong> Product analytics described above. It receives source IP and device/SDK connection information; IP and location are excluded from storage through the stated settings.</li>
+<li><strong>Email services:</strong> Your chosen support email provides a reply address, message and related information for customer support and requests.</li>
+</ul>
+<p>The provider accesses information as needed for maintenance, safety, support and deletion. Third-party processors are required to provide personal-information protection equivalent to this policy. <strong>We do not sell your information.</strong></p>
+<p>Information may be handled outside Japan, including in the United States; the PostHog endpoint is in the United States. Foreign privacy systems may differ. We check processor safeguards, contracts and access management and require appropriate protection. Processor log retention varies by service/settings. Contact us for information and deletion requests.</p>
+<h3>7. Retention and deletion scope</h3>
+<ul>
+<li><strong>Local raw sensors:</strong> Maintenance at launch and similar times removes files older than three days.</li>
+<li><strong>Detailed local measurements:</strong> Records older than 14 days are cleaned up after successful daily aggregation. Daily aggregates, achievements and notes to tomorrow’s you are retained separately.</li>
+<li><strong>Private backup, world-purpose distance, treasures and similar records:</strong> Retained for selected storage/restoration/comparison purposes until the corresponding deletion operation below.</li>
+<li><strong>Friend distance and battle results:</strong> These are delivery copies for friends. They are deleted after the required friends’ devices confirm receipt, and otherwise seven days after the end of the day concerned (the later of both time zones). After that deadline, a new device may be unable to restore individual battle records with friends.</li>
+<li><strong>Friend block start/end events:</strong> Deleted when all eligible friends have received them, or seven days after occurrence. The original block start/end records received by the server (including technical information such as app/OS versions and time zone) are also deleted within seven days.</li>
+<li><strong>Other measurement-test events:</strong> Cleaned up periodically 30 days after occurrence or receipt.</li>
+<li><strong>Anonymous world daily aggregates:</strong> Daily participant counts, total/mean/distribution of distance, reduced distance and similar figures are stored as aggregates without account IDs or per-person values. They are finalized about three days after the day concerned and are not changed or deleted after that. They are kept indefinitely, including after permission withdrawal or account deletion.</li>
+<li><strong>Reports:</strong> Person-level reports expire after 90 days.</li>
+<li><strong>Blocks:</strong> Kept until the block is removed or either account is deleted.</li>
+<li><strong>Erasure ledger:</strong> Account/related IDs, deletion/withdrawal type and time are retained independently for 35 days to prevent reappearance during recovery, without bodies.</li>
+<li><strong>Operational SQL backups:</strong> Exclude pending notifications, expire within 30 days of creation and are pruned hourly. Recovery reapplies the separate erasure ledger.</li>
+</ul>
+<p><strong>Deleting device records:</strong> “Delete measurements and schedules” in Settings &gt; “Export and import data” deletes device measurement records (daily aggregates, walking and detailed measurements), raw sensor records, schedules, earned/opened treasure records, the fixed distance baseline, and notes to tomorrow’s you with their pending/delivered notifications. Your profile (name/photo), origin, blocking settings and targets other than schedules, block completion days, results against yesterday’s you, cached friend records and online records remain. Deletion is unavailable during Stoic mode, and the App explains this. To delete all data on the device, delete the App. However, the credentials used to connect to the server are stored in the iOS keychain and, by iOS design, may remain after the App is deleted. Deleting device records or deleting the App does not delete server data. To delete server data, use backup deletion or account deletion below.</p>
+<p><strong>Delete private backup:</strong> “Delete saved backup” on the “Private backup” screen stops sync and deletes from the server your private daily snapshots, treasures/baseline/the treasure displayed on Home/settings, results against yesterday’s you, block completion/excluded days, visit-day records and the private name/photo. Device records remain. It does not bulk-delete distance also stored for friends/world purposes, scoped names/photos, friendships, shared battles or reports. Photo copies also used for sharing may remain for that purpose.</p>
+<p><strong>Delete account:</strong> “Delete online account” in Settings &gt; “Account and visibility” invalidates access and deletes private/scoped profiles, photos, friendships, daily/battle/achievement/backup records, referral records, RevenueCat app user IDs and Pro check results, reports (made by or about you), block records and related records. The server asks Apple to revoke the Apple link; if that fails, the App explains how to stop using Sign in with Apple in iOS Settings. A deleted-account tombstone remains to prevent recreation. Use this operation to delete stored friend/world records as well. It does not erase anonymous world daily aggregates, friends’ device caches or independent purchase/analytics records held by processors.</p>
+<h3>8. Requests and security measures</h3>
+<p>Email us to request notice of purposes, access, correction/addition/deletion, suspension/erasure or cessation of third-party provision of retained personal information. Identify the account and request; do not email passwords or authentication tokens. We verify identity as needed, respond under applicable law and explain reasons if unable to comply. Email remains available if you can no longer use the App.</p>
+<p>We work to prevent leakage/misuse through encrypted communication, device credentials and purpose authorization, limited access, protected device storage, retention/deletion and recovery-ledger procedures, and maintenance access controls. We provide details of safeguards by email where disclosure does not compromise them.</p>
+<h3>9. Minors</h3>
+<p>Online sharing through Friends, World aggregate and Named ranking is for ages 13 and above; referral counting is separate, as described above. First-run setup asks for an age from 13 to 60 and does not continue if you are under 13. Age entry comes after name entry and optional Apple linking, so if setup stops because you are under 13, the name entered so far may remain on the device, and device credentials or Apple-link records created by earlier steps may remain on the server. You can request their deletion by email. Permission screens and explanations state that sharing is for ages 13 and above. We do not store a date of birth. The age you enter is deleted from the device when first-run setup is completed and is not sent to the server. Obtain parental consent where applicable law requires it. Contact us about age-related or inappropriate use.</p>
+<h3>10. Changes and contact</h3>
+<p>Before expanding features, collection or sharing, we explain the change in the App and obtain the necessary new permission. A web-page update or past permission alone does not expand purposes.</p>
+<p>Provider: Satoshi Okubo. The provider’s address will be disclosed without delay upon request.</p>
+<p>Email: <a href="mailto:siokara121234p5@gmail.com">siokara121234p5@gmail.com</a></p>
+</section>
+</main>
+</body>
+</html>
